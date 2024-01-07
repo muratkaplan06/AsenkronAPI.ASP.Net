@@ -11,7 +11,7 @@ namespace FirstAPI.DataAccess.Entity
         public string? Description { get; set; }
         public decimal Price { get; set; }
         public bool IsAvailable { get; set; }
-        [Required]
+       
         public int CategoryId { get; set; }
         public virtual Category? Category { get; set; }
     }
