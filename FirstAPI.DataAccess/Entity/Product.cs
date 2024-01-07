@@ -13,7 +13,6 @@ namespace FirstAPI.DataAccess.Entity
         public bool IsAvailable { get; set; }
         [Required]
         public int CategoryId { get; set; }
-        [JsonIgnore]
         public virtual Category? Category { get; set; }
     }
 }
